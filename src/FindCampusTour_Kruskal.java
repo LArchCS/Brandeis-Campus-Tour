@@ -5,11 +5,11 @@
  *
  */
 public class FindCampusTour_Kruskal {
-	Graph g = null;
-	GraphNode home = null;
-	boolean skateboard = false;
-	boolean minTime = false;
-	UnionFind uf = null;
+	Graph g;
+	GraphNode home;
+	boolean skateboard;
+	boolean minTime;
+	UnionFind uf;
 	
 	public FindCampusTour_Kruskal(Graph g, GraphNode home, boolean skateboard, boolean minTime) {
 		this.g = g;
@@ -65,7 +65,7 @@ public class FindCampusTour_Kruskal {
 		for (int i = 20; i < g.edges.length; i++) {
 			g.edges[i].getTime(skateboard);
 		}
-		new QuickSort(g.edges, minTime);
+		QuickSort.qs(g.edges, minTime);
 		
 		// union find and return active path
 		SinglyLinkedList<GraphEdge> treePaths = new SinglyLinkedList<GraphEdge>();
@@ -93,9 +93,6 @@ public class FindCampusTour_Kruskal {
 			GraphEdge e = curt.getData();
 			e.start.treeEdge.insert(e);
 			curt = curt.next;
-		}
-		for (int i = 0; i < g.vertex.length; i++) {
-			g.vertex[i].activeEdge = null;
 		}
 		
 		return treePaths;

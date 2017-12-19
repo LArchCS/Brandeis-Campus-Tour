@@ -76,6 +76,7 @@ public class FindCampusTour_Prim {
 
 			if (u.activeEdge != null) {
 				treePaths.insert(u.activeEdge);
+				u.activeEdge = null;
 			}
 		}
 		SinglyLinkedListNode<GraphEdge> curt = treePaths.head;
@@ -83,9 +84,6 @@ public class FindCampusTour_Prim {
 			GraphEdge e = curt.getData();
 			e.start.treeEdge.insert(e);
 			curt = curt.next;
-		}
-		for (int i = 0; i < g.vertex.length; i++) {
-			g.vertex[i].activeEdge = null;
 		}
 		
 		return treePaths;
