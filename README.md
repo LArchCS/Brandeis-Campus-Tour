@@ -7,7 +7,6 @@ This program is a programming assignment from algorithm class. It Implements a w
 Map/
     MapDataEdges.txt
     MapDataVertices.txt
-    RouteCropped.txt
     SampleOutputBoarding/
     SampleOutputWalking/
     MatlabScriptsToDisplayAPath/
@@ -15,6 +14,8 @@ Map/
         DisplayCropped.m
         DisplayWithArrows.m
         DisplayWithArrowsCropped.m
+        RouteCropped.txt
+        BrandeisMapLabeledCropped.jpg
     src/
         BinaryMinHeap.java
         Entry.java
@@ -50,7 +51,7 @@ No test files are uploaded. All data structures and algorithms were tested on my
 Main function is in Map.java. Run the Map.java file, interact with console, and follow instructions to generate campus tour.
 
 ## Visualize campus tour
-The Map.java will generate a RouteCropped.txt file. Moved it to MatlabScriptsToDisplayAPath folder and run Display.m to visualize the campus tour. Display will read coordinates in RouteCropped.txt and draw lines on BrandeisMapLabeledCropped.jpg.
+The Map.java will generate a RouteCropped.txt file in MatlabScriptsToDisplayAPath folder. Run Display.m in MatlabScriptsToDisplayAPath folder to visualize the campus tour. Display.m will read coordinates in RouteCropped.txt and draw lines on BrandeisMapLabeledCropped.jpg.
 
 ## Sample output and visualization
 ```

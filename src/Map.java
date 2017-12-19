@@ -27,7 +27,7 @@ public class Map {
 	static int MapHeightPixels = 2000;
 	static int CropLeft = 150;
 	static int CropDown = 125;
-	static String fileName = "RouteCropped.txt";
+	static String fileName = "MatlabScriptsToDisplayAPath/RouteCropped.txt";
 
 	public static void main(String[] args) {
 		g = new Graph();
