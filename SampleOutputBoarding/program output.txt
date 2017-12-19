@@ -1,0 +1,69 @@
+
+
+************* WELCOME TO THE BRANDEIS MAP *************
+Enter start (return to quit): castle
+Enter finish (or return to do a tour): gordon field
+Have a skateboard (y/n - default=n)? y
+Minimize time (y/n - default=n)? y
+
+FROM: (U40) Usen Castle
+ON: Usen Driveway
+Walk 126 feet in direction 273 degrees West.
+TO: (7) Usen Main Entrance
+(no skateboards allowed, 28 seconds)
+
+FROM: (7) Usen Main Entrance
+ON: Usen Bypass
+Glide 161 feet in direction 37 degrees NE.
+TO: (8) Intersection Of Loop Road And Usen Bypass
+(18 seconds)
+
+FROM: (8) Intersection Of Loop Road And Usen Bypass
+ON: Loop Road
+Coast down 257 feet in direction 116 degrees SE.
+TO: (9) Loop Road At The Top Of East Quad Steps
+(11 seconds)
+
+FROM: (9) Loop Road At The Top Of East Quad Steps
+ON: Loop Road
+Coast down 293 feet in direction 179 degrees South.
+TO: (W) Loop Road At The Health Center
+(13 seconds)
+
+FROM: (W) Loop Road At The Health Center
+ON: Health Center Steps
+Go down 213 feet in direction 157 degrees SE.
+TO: (X) South St. At The Base Of Health Center Steps
+(no skateboards allowed, 52 seconds)
+
+FROM: (X) South St. At The Base Of Health Center Steps
+ON: South Street
+Coast down 430 feet in direction 256 degrees West.
+TO: (A1u) Under Squire Bridge
+(19 seconds)
+
+FROM: (A1u) Under Squire Bridge
+ON: Athletics Driveway
+Glide 187 feet in direction 156 degrees SE.
+TO: (Y) Athletics Front Entrance
+(20 seconds)
+
+FROM: (Y) Athletics Front Entrance
+ON: Athletics Path
+Glide 549 feet in direction 269 degrees West.
+TO: (&) Athletic Lot
+(1.0 minutes)
+
+FROM: (&) Athletic Lot
+ON: Athletics Path
+Glide 470 feet in direction 201 degrees South.
+TO: (^) Gordon Bleachers
+(52 seconds)
+
+FROM: (^) Gordon Bleachers
+ON: Gordon Field
+Walk 267 feet in direction 259 degrees West.
+TO: (A8) Gordon Field
+(no skateboards allowed, 59 seconds)
+
+legs = 10, distance = 2953 feet, time = 5.5 minutes

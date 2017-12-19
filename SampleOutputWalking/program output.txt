@@ -1,0 +1,62 @@
+
+
+************* WELCOME TO THE BRANDEIS MAP *************
+Enter start (return to quit): castle
+Enter finish (or return to do a tour): gordon field
+Have a skateboard (y/n - default=n)? n
+Minimize time (y/n - default=n)? n
+
+FROM: (U40) Usen Castle
+ON: Usen Driveway
+Walk 126 feet in direction 273 degrees West.
+TO: (7) Usen Main Entrance
+(28 seconds)
+
+FROM: (7) Usen Main Entrance
+ON: Usen Bypass
+walk 130 feet in direction 157 degrees SE.
+TO: (S) Top Of Usen Steps
+(29 seconds)
+
+FROM: (S) Top Of Usen Steps
+ON: Usen Bypass
+walk down 297 feet in direction 218 degrees SW.
+TO: (V) Loop Road At The Top Of Squire Bridge Steps"
+(59 seconds)
+
+FROM: (V) Loop Road At The Top Of Squire Bridge Steps"
+ON: Squire Bridge Steps
+Go down 132 feet in direction 164 degrees South.
+TO: (A1n) Squire Bridge North Entrance
+(32 seconds)
+
+FROM: (A1n) Squire Bridge North Entrance
+ON: Squire Bridge
+Walk 280 feet in direction 132 degrees SE.
+TO: (A1s) Squire Bridge South Entrance
+(1.0 minutes)
+
+FROM: (A1s) Squire Bridge South Entrance
+Walk 90 feet in direction 197 degrees South.
+TO: (Y) Athletics Front Entrance
+(20 seconds)
+
+FROM: (Y) Athletics Front Entrance
+ON: Marcus Field
+Walk 514 feet in direction 218 degrees SW.
+TO: (A7) Marcus Field
+(1.9 minutes)
+
+FROM: (A7) Marcus Field
+ON: Marcus Field
+Walk 418 feet in direction 266 degrees West.
+TO: (^) Gordon Bleachers
+(1.5 minutes)
+
+FROM: (^) Gordon Bleachers
+ON: Gordon Field
+Walk 267 feet in direction 259 degrees West.
+TO: (A8) Gordon Field
+(59 seconds)
+
+legs = 9, distance = 2254 feet, time = 8.2 minutes
