@@ -115,6 +115,6 @@ To: (A8) Gordon Field
 
 legs = 9, distance = 2254 feet, time = 8.2 minutes
 ```
-![alt text](https://github.com/LArchCS/Brandeis-Map-Graph-Campus-Tour/blob/master/SampleOutputWalking/SampleOutputWalkMap.jpg?raw=true)
+![alt text](https://github.com/LArchCS/Brandeis-Campus-Tour-Graph-Algorithms/blob/master/SampleOutputWalking/SampleOutputWalkMap.jpg?raw=true)
 
 More sample outputs are in MatlabScriptsToDisplayAPath folder.
