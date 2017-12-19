@@ -7,23 +7,23 @@
 public class QuickSort {
 	static boolean minTime = false;
 	
-	public QuickSort(GraphEdge[] A, boolean mt) {
-		qs(A, mt);
-	}
-	
 	public static void qs(GraphEdge[] A, boolean mt) {
 		minTime = mt;
 		sort(A, 0, A.length - 1);
 	}
 
-	public static void sort(GraphEdge[] A, int start, int end) {
+	public static void qs(GraphEdge[] A) {
+		sort(A, 0, A.length - 1);
+	}
+
+	private static void sort(GraphEdge[] A, int start, int end) {
 		if (start >= end) return;
 		int p = partition(A, start, end);
 		sort(A, start, p - 1);
 		sort(A, p + 1, end);
 	}
 
-	public static int partition(GraphEdge[] A, int start, int end) {
+	private static int partition(GraphEdge[] A, int start, int end) {
 		int index = (start + end) / 2;
 		GraphEdge pivot = A[index];
 		swap(A, start, index);
@@ -43,14 +43,14 @@ public class QuickSort {
 		return right;
 	}
 	
-	public static void swap(GraphEdge[] A, int a, int b) {
+	private static void swap(GraphEdge[] A, int a, int b) {
 		GraphEdge temp = A[a];
 		A[a] = A[b];
 		A[b] = temp;
 	}
 	
 	// handles if sort by length or sort by travel time
-	public static boolean lt(GraphEdge a, GraphEdge b) {
+	private static boolean lt(GraphEdge a, GraphEdge b) {
 		if (minTime) {
 			return a.time - b.time <= 0;
 		}
